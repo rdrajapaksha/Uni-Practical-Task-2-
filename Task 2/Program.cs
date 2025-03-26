@@ -39,6 +39,8 @@ namespace Task02Abstract
 
     }
 
+    
+
     public class Program
     {
         static void Main(string[] args)
