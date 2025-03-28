@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +20,7 @@ namespace Task02Abstract
         public Vehicle(string make)
         {
             this.Make = make;
+
         }
     }
 
@@ -30,6 +31,7 @@ namespace Task02Abstract
         public Car(string make, int doors) : base(make)
         {
             NoofDoors = doors;
+
         }
 
         /*public override void StartEngine()
@@ -44,6 +46,7 @@ namespace Task02Abstract
     public class Program
     {
         static void Main(string[] args)
+
         {
             Car car1 = new Car("Ferrari", 2);
             Console.WriteLine($"My Car is a {car1.Make} with {car1.NoofDoors} doors.");
